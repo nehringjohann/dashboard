@@ -11,8 +11,10 @@ class App extends Component {
                 <MultiGraph graphType='Column' />
                 <MultiGraph graphType='Line' />
                 <MultiGraph graphType='Bar' />
-                <MultiGraph graphType='Pie' />
+                <MultiGraph graphType='Pie' /> 
             </>
         );
     }
 }
+
+export default App;

@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { Chart } from "react-google-charts";
 
 
-class ComboGraph extends Component {
+class LineGraph extends Component {
     
     render() {
         return (
             <>
                 <Chart
-                    chartType="ComboChart"
+                    chartType="LineChart"
                     data = {this.props.graphData}
                     options = {this.props.graphOptions}
                     width="100%"
@@ -20,4 +20,4 @@ class ComboGraph extends Component {
     }
 }
 
-export default ComboGraph;
+export default LineGraph;

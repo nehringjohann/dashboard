@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import logo from '../../src/itsc.png';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -41,5 +41,6 @@ class Header extends Component {
             </>
         );
     }
-    
 }
+
+export default Header;
